@@ -91,7 +91,7 @@ void obtiene_datos(char *fich, double *ho, double *a, double *d, double *b, doub
     i=0;
     j=1;
     //separamos las posibles palabras en trozos
-    printf("\n----------------DATOS OPTENIDOS--------------\n");
+    printf("\n----------------DATOS OBTENIDOS--------------\n");
     trozo = strtok( buffer, " \n");
     *ho = atof(trozo);
     printf("ho = %g\n\n", *ho);
